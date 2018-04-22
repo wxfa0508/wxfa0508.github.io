@@ -1,0 +1,85 @@
+body {
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Helvetica, "PingFang SC", "Hiragino Sans GB", "Microsoft YaHei", SimSun, sans-serif;
+    margin: 0px;
+    padding: 0px;
+}
+
+
+
+h3 {
+    background-color: rgb(177, 252, 215);
+    color: rgb(14, 146, 65);
+    width: 100px;
+    line-height: 30px;
+    padding-left: 10px;
+}
+
+a {
+    text-decoration: none;
+    color: rgb(52, 230, 141);
+}
+
+.left {
+    float: left;
+    padding: 0px 4px;
+}
+
+.l {
+    float: left;
+}
+
+.right {
+    float: right;
+    padding: 0px 100px;
+}
+
+p {
+    text-indent: 20px;
+}
+
+table {
+    text-align: center;
+    font-weight: bold;
+}
+
+.clear {
+    clear: both;
+}
+
+.container {
+    margin: 30px auto;
+    border: 1px solid green;
+    padding: 20px 20px 50px;
+    width: 800px;
+    margin-top: 0;
+    background-image: url("http://t2.hddhhn.com/uploads/tu/201707/521/83.jpg");
+}
+
+.dt {
+    text-align: left;
+}
+.fix{
+    position: fixed;
+
+}
+@media(max-width:800px) {
+    .dt {
+        text-align: justify;
+        width: 200px;
+    }
+    .container {
+        border: 1px solid green;
+        width: 100%;
+        background-image: url("http://t2.hddhhn.com/uploads/tu/201707/521/82.jpg");
+        background-repeat: initial;
+    }
+    table {
+        width: 95%;
+        margin: 10 auto;
+    }
+    h3 {
+        width: 95%;
+        margin: 10 auto;
+        background-color: initial;
+    }
+}
